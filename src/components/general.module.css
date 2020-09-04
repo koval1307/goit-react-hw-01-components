@@ -1,0 +1,27 @@
+.stats_title {
+    display: flex;
+    align-content: center;
+ margin-left:auto;
+ margin-right:auto;
+    font-size: 25px;
+    margin: 25px auto;
+    text-align: center;
+    font-weight: 700;
+}
+
+.statistics {
+    margin:  auto;
+    width: 397px;
+
+}
+
+:global(ul) {
+    list-style-type: none;
+    padding: 0;
+}
+
+.wraper{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 500px;
+  border: 1px solid rgb(23, 180, 167);
+  border-radius: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.titles {
+  height: 40px;
+  color: white;
+  background-color: #00ced1;
+}
+
+td {
+  text-align: center;
+}
+
+.lineItem {
+  height: 40px;
+}
+
+.lineItem:nth-child(2n) {
+  background-color: rgb(136, 133, 133);
+}
